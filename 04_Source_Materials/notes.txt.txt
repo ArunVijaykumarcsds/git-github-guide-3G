@@ -1,0 +1,79 @@
+# GitHub Guide book by Arun vk 
+# topics covered 
+	1. How to Configure global Git to your local system (ONE TIME PROCESS)
+	2. How to push your code from local to GitHub repo the 1st time 
+	3. How to push your code from local to GitHub thereafter (STEP 2 is important for this) 
+
+# How to push first time (everything is brackets and <> are description!!)
+1. Create a GitHub repo
+2. Run these Commands 
+	1. git init (one time)
+	2. git add . / git add <filename>
+	3. git commit -m "commit message"
+	4. git branch -M main (change branch to main , one time) 
+	5. git remote add origin <http..> (add repo link , one time)
+	6. git push -u origin main (main is branch name!!)
+
+
+# Next time How to push the in the same repo 
+1. git status or git stat
+2. git add . or git add <file name>
+3. git commit -m "commit message"
+4. git push
+
+
+# How to configure your git local in global (one time)
+1. git config --global user.email "write your email"
+2. git config --global user.name "write your username"
+
+
+# How to check if email and user name are already configured 
+1. git config --global user.email (will show u the configured mail id)
+2. git config --global user.name  (will show u the configured user name)
+
+
+# GitHub pages (will give u a live website link for webdevelopers)
+
+
+# Important Commands to know 
+1. git log --will tell u what u were doing all time its shows a logbook of what you did 
+2. git pull -- pull the updated repo from main
+3. git branch / git branch --a (will give u how many branches are there in a repo)
+4. git checkout main --Switches to main branch
+5. git merge ...... (in place of ... write branch name which u wanna merge into ur current branch main)
+
+
+# How to clone any repo in GitHub into your local system !! 
+1. git init 
+2. git clone --(http../link of repo u want to copy)
+# How to get updated repo all time when we want for the cloned repo 
+1. git pull --pulls latest from main (do when u want up-to date repo in your local system)
+
+
+# How to clone any repo in GitHub into your personal GitHub !!
+1. fork u can find this option in the other person repo & u can push any file here wont affect on the host repo 
+
+
+# The full Correct process of how to work after fork 
+1. Create a new folder and git bash it 
+2. git init 
+3. git branch -M "main" (will change branch to main)
+4. git clone (http../forked repo link)
+5. by step 4 you will get your full code in that new folder 
+6. open the new folder and git bash it and run..
+7. git status 
+8. shows all ops u performed , now !! 
+9. git add. / git add <file name>
+10. git commit -m "deleted a file" (description of the op performed is inside -> "..." )
+11. git push origin -u main
+
+
+# Github pages --used to deploy our webpage
+1. guide to use/access
+		Settings → Pages → Source → Select Branch (main) → Save
+
+
+
+
+
+
