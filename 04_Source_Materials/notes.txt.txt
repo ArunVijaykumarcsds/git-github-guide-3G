@@ -3,6 +3,11 @@
 	1. How to Configure global Git to your local system (ONE TIME PROCESS)
 	2. How to push your code from local to GitHub repo the 1st time 
 	3. How to push your code from local to GitHub thereafter (STEP 2 is important for this) 
+	4. How to check if email and user name are already configured 
+	5. GitHub pages
+	6. Important Commands to know 
+	7. How to clone any repo in GitHub into your local system
+	8. The full Correct process of how to work after fork (AFTER FORK U CAN ALWAYS TAP SYNC FORK BUTTON IN REPO TO GET UPDATED REPO)
 
 # How to push first time (everything is brackets and <> are description!!)
 1. Create a GitHub repo
