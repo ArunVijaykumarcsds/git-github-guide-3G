@@ -1,5 +1,6 @@
 <div align="center">
 
+![Git Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Git%20%26%20GitHub%20Documentation&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Master%20Version%20Control%20Like%20a%20Pro&descAlignY=55&descSize=25)
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="120" height="120"/>
 
